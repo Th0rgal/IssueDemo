@@ -6,6 +6,7 @@ group 'io.th0rgal'
 version '1.0.0'
 
 sourceCompatibility = 1.8
+def pluginVersion = "0.5.1"
 
 repositories {
     mavenLocal()
@@ -16,4 +17,10 @@ repositories {
 dependencies {
     compileOnly group: "org.spigotmc", name: "spigot", version: "1.14.4-R0.1-SNAPSHOT" // The Spigot API with no shadowing. Requires the OSS repo.
     compileOnly group: "org.spigotmc", name: "spigot-api", version: "1.14.4-R0.1-SNAPSHOT"
+}
+
+processResources {
+    filesNotMatching(["**/*.png", "**/models/**", "**/textures/**"]) {
+        expand projectVersion: pluginVersion
+    }
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc8dfa8-77d1-4a32-93f0-4efe59e367fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/th0rgal/issuedemo/MushroomBlocksBehaviourListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/th0rgal/issuedemo/IssueDemoPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/th0rgal/issuedemo/IssueDemoPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572777950872</updated>
-      <workItem from="1572777956102" duration="984000" />
+      <workItem from="1572777956102" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="➕ adds spigot dependency">
       <created>1572778370881</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572778400514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="✨ disables physics for mushroom stem blocks">
+      <created>1572778967480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572778967480</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="➕ adds spigot dependency" />
     <MESSAGE value=" adds gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=" adds gitignore" />
+    <MESSAGE value="✨ disables physics for mushroom stem blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ disables physics for mushroom stem blocks" />
   </component>
 </project>

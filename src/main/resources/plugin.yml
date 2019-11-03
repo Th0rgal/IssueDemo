@@ -1,0 +1,5 @@
+main: io.th0rgal.issuedemo.IssueDemoPlugin
+name: IssueDemo
+version: ${projectVersion}
+author: Th0rgal
+api-version: "1.14"
